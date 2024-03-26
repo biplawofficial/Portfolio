@@ -1,7 +1,5 @@
 body{
     scroll-behavior: smooth;
-    background-color: #917d6e;
-
 }
 *{
     margin:0px;
@@ -30,16 +28,20 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px;
-    height:10vh;
-    width:100vw;
-    
+    height:100px;
+    width:100%;
+    position: top;
+    z-index: 10;
 }
 #page1>nav>img
 {
    width: 4%;
+  
 }
-#page1>nav>#right-nav>button
+
+.works
 {
+    cursor: pointer;
     margin: 0px 2px;
     padding: 3px 20px;
     border-radius:50px;
@@ -48,6 +50,11 @@ body{
     color: rgb(0, 0, 0);
     font-size: 15px;
     font-family: 'Jost', sans-serif;
+    text-decoration: none;
+   
+}
+.works:hover{
+    background-color:#f3d68d;
 }
 .bottom-page
 {
@@ -96,6 +103,7 @@ body{
     background-color: white;
     box-shadow: 0 0 5px #ac8f72;
     transition: 1s;
+    cursor:pointer;
     
 }
 .lowerbottom>button:hover{

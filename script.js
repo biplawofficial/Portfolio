@@ -54,6 +54,7 @@ scrub:1.8,
   color: `white`,
   
 })
-
-
-
+function gotolink()
+{
+  location.href="www.google.com";
+}
